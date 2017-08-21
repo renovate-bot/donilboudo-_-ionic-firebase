@@ -10,13 +10,14 @@ import { HomePage } from '../pages/home/home';
 // Import the AF2 Module
 import { AngularFireModule } from 'angularfire2';
  
-// AF2 Settings
+//we can find these properties we create a new project on firebase plateform and 
+//select add firebase to your web application
 export const firebaseConfig = {
-  apiKey: "AIzaSyDnAX0CQbbsMYuOTJ66ox_F0GwzPM4XPXY",
-  authDomain: "angularfire2-list-example.firebaseapp.com",
-  databaseURL: "https://angularfire2-list-example.firebaseio.com",
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
   storageBucket: "",
-  messagingSenderId: "609067141823"
+  messagingSenderId: ""
 };
 
 @NgModule({
